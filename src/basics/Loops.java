@@ -3,14 +3,10 @@ package basics;
 public class Loops {
 
     public static void loops(){
-        String name = "Name";
-        String name1 = "name";
-        if (name.equalsIgnoreCase(name)){
-           System.out.println(name);
-        }else {
-            System.out.println(name1);
+        for (int i=1;i<=10;i++){
+            int j=10;
+            System.out.printf("%d * %d = %d",i,j,i*j).println();
         }
-
     }
     public static void main(String[] args) {
         Loops.loops();
